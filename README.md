@@ -3,6 +3,7 @@ Docker and setup files for snapdragon profiler
 
 ## Usage
 
+### With docker
 * Create image using dockerfile
 * Run launch container as follows
 ```
@@ -14,7 +15,13 @@ sudo chmod +x /usr/local/bin/setup-profiler.sh
 ./usr/local/bin/setup-profiler.sh
 ```
 
-### Download Snapdragon profiler
+### Without docker
+```
+chmod +x setup-deps.sh
+./setup-deps.sh
+```
+
+## Download Snapdragon profiler
 Download snapdragon profiler from [here](https://developer.qualcomm.com/downloads/snapdragon-profiler-v20222-linux-installer)
 
 Note:
