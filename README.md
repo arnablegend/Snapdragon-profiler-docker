@@ -6,7 +6,7 @@ Docker and setup files for snapdragon profiler
 * Create image using dockerfile
 * Run launch container as follows
 ```
-./launch-container.sh <Image Name> <host workspace directory>
+./launch-container.sh <Image Name> <Full path to host workspace directory>
 ```
 * Inside docker
 ```
